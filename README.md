@@ -1,6 +1,14 @@
 
+<<<<<<< HEAD
 #  
 
+||||||| fd05741
+#  BLOG
+### 31.10.2020
+=======
+#  MY BLOG SITE
+
+>>>>>>> e7594d4a8ad26b6cd92ce97f407551e27eb255a8
 ####  A Python Flask CRUD web application for sharing blogs.
 
 ![alt text](app.png)
