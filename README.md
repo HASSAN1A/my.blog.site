@@ -1,6 +1,6 @@
 
-#  BLOG
-### 31.10.2020
+#  
+
 ####  A Python Flask CRUD web application for sharing blogs.
 
 ![alt text](app.png)
