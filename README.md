@@ -1,11 +1,5 @@
 
-<<<<<<< HEAD
-#  
 
-||||||| fd05741
-#  BLOG
-### 31.10.2020
-=======
 #  MY BLOG SITE
 
 >>>>>>> e7594d4a8ad26b6cd92ce97f407551e27eb255a8
@@ -64,8 +58,8 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ### Bug / Feature Request
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/HASSAN1A/Blog/issues/new) by including your search query and the expected result.
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/HASSAN1A/Blog). Please include sample queries and their corresponding results.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/HASSAN1A/my.blog.site/issues/new) by including your search query and the expected result.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/HASSAN1A/my.blog.site). Please include sample queries and their corresponding results.
 
 ## Built with
 
@@ -87,7 +81,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 [Hassan Juma ](https://github.com/HASSAN1A)
 
-## [License](https://github.com/HASSAN1A/Blog/blob/master/LICENSE.md)
+## [License](https://github.com/HASSAN1A/Blog/blob/main/LICENSE.md)
 
-[MIT](https://github.com/HASSAN1A/Blog/blob/master/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
-# my.blog.site
+[MIT](https://github.com/HASSAN1A/my.blog.site/blob/main/LICENSE.md) © [Hassan Juma](https://github.com/HASSAN1A)
+
