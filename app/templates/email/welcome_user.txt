@@ -1,0 +1,7 @@
+Hello {{user.username}}
+Welcome to My Blog!
+Start your blogging n journey today with us by writing your first blog.
+
+Regards,
+
+Hassan
