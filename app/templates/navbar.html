@@ -1,0 +1,59 @@
+<nav class="mb-1 navbar navbar-expand-lg blue-gradient fixed-top text-white">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <ul class="navbar-nav mr-auto text-white">
+      <li class="nav-item ">
+        <a class="nav-link" href="{{url_for('blog.index')}}">Home
+        </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="{{url_for('blog.article_by_tag',tag='Fashion')}}">Fashion</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="{{url_for('blog.article_by_tag',tag='Entertainment')}}">Entertainment</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="{{url_for('blog.article_by_tag',tag='Food')}}">Food</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="{{url_for('blog.article_by_tag',tag='Wellness')}}">Wellness</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="{{url_for('blog.article_by_tag',tag='Music')}}">Music</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="{{url_for('blog.article_by_tag',tag='Sports')}}">Sports</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="{{url_for('blog.article_by_tag',tag='Education')}}">Education</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="{{url_for('blog.article_by_tag',tag='Others')}}">Others</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto text-white">
+      {% if current_user.is_authenticated %}
+      <li class="nav-item">
+        <a class="nav-link" href="{{url_for('blog.new_article')}}"><button type="button" class="btn btn-success btn-sm btn-rounded"><strong>POST ARTICLE</strong> </button>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url_for('blog.profile',username=current_user.username)}}"><span class="badge badge-primary"><i class="fas fa-user"></i> {{current_user.username | capitalize}}</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url_for('auth.logout')}}"><i class="fas fa-sign-out-alt"></i> Sign out
+        </a>
+      </li>
+      {%else%}
+      <li class="nav-item">
+        <a class="nav-link" href="{{url_for('auth.login')}}">Sign in
+        </a>
+      </li>
+      {%endif%}
+    </ul>
+  </div>
+</nav>
